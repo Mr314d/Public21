@@ -1,0 +1,328 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("[ALPHA] 🏍️ Motorcycle Mayhem", "Ocean")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Spawn Any Motorcyle")
+
+local function SpawnMVAgustus()
+	local args = {
+		[1] = "MV Agustus"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnDondaCBR600RR()
+	local args = {
+		[1] = "Donda CBR 600RR"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnAlphaRC390()
+	local args = {
+		[1] = "Alpha RC390"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnYamuraR3()
+	local args = {
+		[1] = "Yamura R3"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnYZFDirtbike()
+	local args = {
+		[1] = "YZF Dirtbike"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnDondaCBR300R()
+	local args = {
+		[1] = "Donda CBR300R"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnKawalskiSamurai300()
+	local args = {
+		[1] = "Kawalski Samurai 300"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnYamuraR6()
+	local args = {
+		[1] = "Yamura R6"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnDonaNR750()
+	local args = {
+		[1] = "Donda NR750"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnYamuraMT10()
+	local args = {
+		[1] = "Yamura MT10"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnSamuriZX10R()
+	local args = {
+		[1] = "Samurai ZX10R"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnDondaCBR1000RRFireblade()
+	local args = {
+		[1] = "Donda CBR1000RR Fireblade"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnBeamerS1000RR()
+	local args = {
+		[1] = "Beamer S1000RR"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function MVAgustus()
+	local args = {
+		[1] = "MV Agustus"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnDugattiPR()
+	local args = {
+		[1] = "Dugatti PR"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnKawalskiSamuraiH2R()
+	local args = {
+		[1] = "Kawalski Samurai H2R"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnHarlonDavidGlide()
+	local args = {
+		[1] = "Harlon David Glide"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+local function SpawnHarlonDavidHardtail()
+	local args = {
+		[1] = "Harlon David Hardtail"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("SpawnVeh"):FireServer(unpack(args))
+end
+
+Section:NewButton("MV Agustus", "Just Spawn", function()
+	SpawnMVAgustus()
+end)
+
+Section:NewButton("Donda CBR 600RR", "Just Spawn", function()
+	SpawnDondaCBR600RR()
+end)
+
+Section:NewButton("Alpha RC390", "Just Spawn", function()
+	SpawnAlphaRC390()
+end)
+
+Section:NewButton("Yamura R3", "Just Spawn", function()
+	SpawnYamuraR3()
+end)
+
+Section:NewButton("YZF Dirtbike", "Just Spawn", function()
+	SpawnYZFDirtbike()
+end)
+
+Section:NewButton("Donda CBR300R", "Just Spawn", function()
+	SpawnDondaCBR300R()
+end)
+
+Section:NewButton("Kawalski Samurai 300", "Just Spawn", function()
+	SpawnKawalskiSamurai300()
+end)
+
+Section:NewButton("Yamura R6", "Just Spawn", function()
+	SpawnYamuraR6()
+end)
+
+Section:NewButton("Donda NR750", "Just Spawn", function()
+	SpawnDonaNR750()
+end)
+
+Section:NewButton("Yamura MT10", "Just Spawn", function()
+	SpawnYamuraMT10()
+end)
+
+Section:NewButton("Samurai ZX10R", "Just Spawn", function()
+	SpawnSamuriZX10R()
+end)
+
+Section:NewButton("Donda CBR1000RR Fireblade", "Just Spawn", function()
+	SpawnDondaCBR1000RRFireblade()
+end)
+
+Section:NewButton("Beamer S1000RR", "Just Spawn", function()
+	SpawnBeamerS1000RR()
+end)
+
+Section:NewButton("Dugatti PR", "Just Spawn", function()
+	SpawnDugattiPR()
+end)
+
+Section:NewButton("Harlon David Glide ('NEW')", "Just Spawn", function()
+	SpawnHarlonDavidGlide()
+end)
+
+Section:NewButton("Harlon David Hardtail ('NEW')", "Just Spawn", function()
+	SpawnHarlonDavidHardtail()
+end)
+
+Section:NewButton("Kawalski Samurai H2R", "Just Spawn", function()
+	SpawnKawalskiSamuraiH2R()
+end)
+
+local Section = Tab:NewSection("Unlock all Motorcyle For Free")
+
+local player = game:GetService("Players").LocalPlayer
+
+Section:NewButton("Unlock all Motorcycles", "It doesn't save, but I'm Rich", function()
+	local player = player
+	local playerName = player.Name
+	if player then
+		local vehicleSpawner = player:FindFirstChild("Vehicle_Spawner")
+		if vehicleSpawner then
+			local replicatedStorage = game:GetService("ReplicatedStorage")
+			local allVehicles = replicatedStorage:FindFirstChild("AVehicles")
+			if allVehicles then
+				for _, vehicle in ipairs(allVehicles:GetChildren()) do
+					vehicle:Clone().Parent = vehicleSpawner
+				end
+			else
+				warn("AVehicles not found in ReplicatedStorage")
+			end
+		else
+			warn("Vehicle_Spawner not found for player " .. playerName)
+		end
+	else
+		warn("Player " .. playerName .. " not found")
+	end
+end)
+
+local Tab = Window:NewTab("LocalPlayer")
+local Section = Tab:NewSection("LocalPlayer")
+
+Section:NewSlider("Player Speed", "makes you walk Faster", 500, 0, function(s)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("Player Jump", "makes you Jump Height", 500, 0, function(s)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section:NewButton("Anti afk", "Nothing", function()
+	local VirtualUser = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:Connect(function()
+		VirtualUser:CaptureController()
+		VirtualUser:ClickButton2(Vector2.new())
+	end)
+end)
+
+local Tab = Window:NewTab("Visual")
+local Section = Tab:NewSection("Visual Means Not Fe")
+
+local player = game:GetService("Players").LocalPlayer
+local leaderstats = player:FindFirstChild("leaderstats")
+
+Section:NewButton("unlimited Gears", "Man just a Visual", function()
+	if leaderstats then
+		local gears = leaderstats:FindFirstChild("Gears")
+		if gears then
+			gears.Value = 99999999999999999
+		end
+	end
+end)
+
+Section:NewButton("unlimited Wheelie", "Man just a Visual", function()
+	if leaderstats then
+		local Wheelie = leaderstats:FindFirstChild("Wheelie")
+		if Wheelie then
+			Wheelie.Value = 99999999999999999
+		end
+	end
+end)
+
+local Tab = Window:NewTab("Server")
+local Section = Tab:NewSection("Server")
+
+local player = game.Players.LocalPlayer
+
+local function Rejoin()
+	local placeId = game.PlaceId
+	local jobId = game.JobId
+
+	game:GetService("TeleportService"):TeleportToPlaceInstance(placeId, jobId, player)
+end
+
+Section:NewButton("Rejoin", "Just a Rejoin", function()
+	Rejoin()
+end)
+
+local Tab = Window:NewTab("Setting")
+local Section = Tab:NewSection("Information")
+
+local userInputService = game:GetService("UserInputService")
+
+local isMobile = userInputService.TouchEnabled
+
+if isMobile then
+	Section:NewLabel("Device Type: Mobile/Tablet")
+else
+	Section:NewLabel("Device Type: Computer/Pc")
+end
+
+local player = game:GetService("Players").LocalPlayer
+
+Section:NewLabel("Player Name: " .. player.Name)
+
+Section:NewLabel("Display Name: " .. player.DisplayName)
+
+local player = game:GetService("Players").LocalPlayer
+
+Section:NewLabel("Player ID: " .. player.UserId)
+
+Section:NewLabel("Made By R_tnt21")
